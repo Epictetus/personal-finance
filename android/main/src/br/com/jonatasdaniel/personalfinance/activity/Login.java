@@ -1,5 +1,8 @@
-package br.com.jonatasdaniel.personalfinance;
+package br.com.jonatasdaniel.personalfinance.activity;
 
+import br.com.jonatasdaniel.personalfinance.R;
+import br.com.jonatasdaniel.personalfinance.R.layout;
+import br.com.jonatasdaniel.personalfinance.R.login;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Button;
