@@ -4,4 +4,10 @@
 	<string name="login_usuario">User</string>
 	<string name="login_senha">Password</string>
 	<string name="login_entrar">Enter</string>
+	<string name="login_usuario_nao_encontrado">User not founded!</string>
+	<string name="login_senha_incorreta">Incorrect password!</string>
+	
+    <string name="main_bem_vindo">Welcome</string>
+    <string name="main_menu_item_transacoes">Transactions</string>
+    <string name="main_menu_item_configuracoes">Configurations</string>
 </resources>

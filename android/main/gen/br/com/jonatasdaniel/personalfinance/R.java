@@ -15,17 +15,28 @@ public final class R {
     }
     public static final class layout {
         public static final int login=0x7f030000;
+        public static final int main=0x7f030001;
+        public static final int main_list_item=0x7f030002;
     }
     public static final class login {
         public static final int btn_logar=0x7f060002;
         public static final int edt_senha=0x7f060001;
         public static final int edt_usuario=0x7f060000;
     }
+    public static final class main {
+        public static final int item_text=0x7f070001;
+        public static final int list=0x7f070000;
+    }
     public static final class string {
         public static final int app_name=0x7f040000;
         public static final int login_entrar=0x7f040003;
         public static final int login_senha=0x7f040002;
+        public static final int login_senha_incorreta=0x7f040005;
         public static final int login_usuario=0x7f040001;
+        public static final int login_usuario_nao_encontrado=0x7f040004;
+        public static final int main_bem_vindo=0x7f040006;
+        public static final int main_menu_item_configuracoes=0x7f040008;
+        public static final int main_menu_item_transacoes=0x7f040007;
     }
     public static final class style {
         public static final int label=0x7f050000;

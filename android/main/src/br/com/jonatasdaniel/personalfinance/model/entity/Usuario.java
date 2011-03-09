@@ -1,15 +1,31 @@
 package br.com.jonatasdaniel.personalfinance.model.entity;
 
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Usuario {
+public class Usuario implements Serializable {
 
+	private static final long	serialVersionUID	= 1L;
+	
 	private Integer	id;
 	private String	nome;
 	private String	login;
 	private String	senha;
 	private Date	dataCadastro;
+	
+	public Usuario() {}
+	
+	public Usuario(String nome, String login, String senha) {
+		this(nome, login, senha, new Date());
+	}
+	
+	public Usuario(String nome, String login, String senha, Date dataCadastro) {
+		this.nome = nome;
+		this.login = login;
+		this.senha = senha;
+		this.dataCadastro = dataCadastro;
+	}
 
 	public Integer getId() {
 		return id;
