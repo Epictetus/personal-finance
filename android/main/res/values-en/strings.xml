@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PersonalFinance</string>
+	<string name="login_usuario">User</string>
+	<string name="login_senha">Password</string>
+	<string name="login_entrar">Enter</string>
+</resources>
