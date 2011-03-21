@@ -1,12 +1,11 @@
 package br.com.jonatasdaniel.personalfinance.activity;
 
-import br.com.jonatasdaniel.personalfinance.R;
-import br.com.jonatasdaniel.personalfinance.model.entity.Usuario;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.widget.ListView;
+import br.com.jonatasdaniel.personalfinance.R;
+import br.com.jonatasdaniel.personalfinance.model.entity.Usuario;
 
 
 public class MainActivity extends Activity {

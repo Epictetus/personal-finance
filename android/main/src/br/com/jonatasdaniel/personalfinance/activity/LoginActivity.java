@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import br.com.jonatasdaniel.personalfinance.R;
-import br.com.jonatasdaniel.personalfinance.infra.persistence.UsuarioDao;
+import br.com.jonatasdaniel.personalfinance.infra.ioc.IocContainer;
 import br.com.jonatasdaniel.personalfinance.model.entity.Usuario;
 import br.com.jonatasdaniel.personalfinance.model.repository.UsuarioRepository;
 
@@ -18,12 +18,14 @@ public class LoginActivity extends Activity {
 	private EditText edtSenha;
 	private Button btnEntrar;
 
-	private UsuarioRepository repository = new UsuarioDao();
+	private UsuarioRepository repository;
 		
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
+        
+        repository = IocContainer.getBean(UsuarioRepository.class);
         
         init();
     }
