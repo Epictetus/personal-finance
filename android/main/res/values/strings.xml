@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="hello">Hello World!</string>
     <string name="app_name">PersonalFinance</string>
-    <string name="login_usuario">Usuário</string>
-    <string name="login_senha">Senha</string>
-    <string name="login_entrar">Entrar</string>
-    <string name="login_usuario_nao_encontrado">Usuário não encontrado!</string>
-    <string name="login_senha_incorreta">Senha incorreta!</string>
-    
-    <string name="main_bem_vindo">Bem-vindo</string>
-    <string name="main_menu_item_transacoes">Transações</string>
-    <string name="main_menu_item_configuracoes">Configurações</string>
 </resources>
