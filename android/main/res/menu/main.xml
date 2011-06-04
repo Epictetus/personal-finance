@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <item android:id="@+main_menu/contas" android:title="@string/main_menu_contas"/>
+    <item android:id="@+main_menu/transacoes" android:title="@string/main_menu_transacoes"/>
+    <item android:id="@+main_menu/configuracoes" android:title="@string/main_menu_configuracoes"/>
+    <item android:id="@+main_menu/sobre" android:title="@string/main_menu_sobre"/>
+    <item android:id="@+main_menu/sair" android:title="@string/main_menu_sair"/>
+    
+</menu>

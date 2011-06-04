@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World!</string>
     <string name="app_name">PersonalFinance</string>
+    
+    <string name="main_menu_contas">Contas</string>
+    <string name="main_menu_transacoes">Transações</string>
+    <string name="main_menu_configuracoes">Configurações</string>
+    <string name="main_menu_sobre">Sobre</string>
+    <string name="main_menu_sair">Sair</string>
+    
 </resources>
