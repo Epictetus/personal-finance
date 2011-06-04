@@ -1,7 +1,7 @@
-package br.com.jonatasdaniel.personalfinance.infra.ioc;
+package br.com.personalfinance.mobile.infra.ioc;
 
-import br.com.jonatasdaniel.personalfinance.infra.persistence.UsuarioDao;
-import br.com.jonatasdaniel.personalfinance.model.repository.UsuarioRepository;
+import br.com.personalfinance.mobile.infra.persistence.UsuarioDao;
+import br.com.personalfinance.mobile.model.repository.UsuarioRepository;
 
 import com.google.inject.AbstractModule;
 

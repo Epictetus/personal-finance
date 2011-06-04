@@ -1,4 +1,4 @@
-package br.com.jonatasdaniel.personalfinance.model.entity;
+package br.com.personalfinance.mobile.model.entity;
 
 public class Conta {
 

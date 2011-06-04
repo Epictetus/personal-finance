@@ -1,9 +1,9 @@
-package br.com.jonatasdaniel.personalfinance.infra.persistence;
+package br.com.personalfinance.mobile.infra.persistence;
 
 import java.util.List;
 
-import br.com.jonatasdaniel.personalfinance.model.entity.Conta;
-import br.com.jonatasdaniel.personalfinance.model.repository.ContaRepository;
+import br.com.personalfinance.mobile.model.entity.Conta;
+import br.com.personalfinance.mobile.model.repository.ContaRepository;
 
 public class ContaDao extends Dao<Conta, Integer> implements ContaRepository {
 

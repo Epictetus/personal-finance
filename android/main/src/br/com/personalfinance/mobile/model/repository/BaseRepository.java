@@ -1,4 +1,4 @@
-package br.com.jonatasdaniel.personalfinance.model.repository;
+package br.com.personalfinance.mobile.model.repository;
 
 import java.util.List;
 

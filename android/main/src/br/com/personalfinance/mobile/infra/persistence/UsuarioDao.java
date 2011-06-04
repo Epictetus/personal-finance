@@ -1,10 +1,10 @@
-package br.com.jonatasdaniel.personalfinance.infra.persistence;
+package br.com.personalfinance.mobile.infra.persistence;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.jonatasdaniel.personalfinance.model.entity.Usuario;
-import br.com.jonatasdaniel.personalfinance.model.repository.UsuarioRepository;
+import br.com.personalfinance.mobile.model.entity.Usuario;
+import br.com.personalfinance.mobile.model.repository.UsuarioRepository;
 
 
 public class UsuarioDao extends Dao<Usuario, Integer> implements UsuarioRepository {

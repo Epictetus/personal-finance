@@ -1,4 +1,4 @@
-package br.com.jonatasdaniel.personalfinance.infra.ioc;
+package br.com.personalfinance.mobile.infra.ioc;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;

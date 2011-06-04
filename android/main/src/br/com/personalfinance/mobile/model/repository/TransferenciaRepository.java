@@ -1,6 +1,6 @@
-package br.com.jonatasdaniel.personalfinance.model.repository;
+package br.com.personalfinance.mobile.model.repository;
 
-import br.com.jonatasdaniel.personalfinance.model.entity.Transferencia;
+import br.com.personalfinance.mobile.model.entity.Transferencia;
 
 public interface TransferenciaRepository extends TransacaoRepository<Transferencia> {
 
