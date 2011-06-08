@@ -10,12 +10,12 @@ public class Saida extends Transacao {
 	public Saida() {
 	}
 
-	public Saida(String descricao, BigDecimal valor, Conta origem) {
-		this(descricao, valor, origem, new Date());
+	public Saida(String descricao, BigDecimal valor, Conta origem, Usuario usuario) {
+		this(descricao, valor, origem, usuario, new Date());
 	}
 
-	public Saida(String descricao, BigDecimal valor, Conta origem, Date data) {
-		super(descricao, valor, data);
+	public Saida(String descricao, BigDecimal valor, Conta origem, Usuario usuario, Date data) {
+		super(descricao, valor, usuario, data);
 		this.origem = origem;
 	}
 

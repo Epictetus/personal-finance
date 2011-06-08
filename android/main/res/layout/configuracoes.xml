@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/activity" android:orientation="vertical" android:gravity="center_vertical">
+
+	<TextView android:text="@string/configuracoes_usuario" style="@style/text" />
+
+	<EditText android:id="@+configuracoes/usuario" style="@style/edit_text"
+		android:hint="@string/configuracoes_digite_usuario" />
+
+	<TextView android:text="@string/configuracoes_senha" style="@style/text" />
+
+	<EditText android:id="@+configuracoes/senha" style="@style/edit_text"
+		android:hint="@string/configuracoes_digite_senha" android:inputType="textPassword" />
+
+	<CheckBox android:id="@+configuracoes/validar_web"
+		android:text="@string/configuracoes_validar_usuario_web" style="@style/text"/>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<Button android:id="@+configuracoes/salvar" android:text="@string/salvar"
+			style="@style/button"
+			android:layout_weight="50"
+			android:onClick="btnSalvarClick"/>
+
+		<Button android:id="@+configuracoes/cancelar" android:text="@string/cancelar"
+			style="@style/button"
+			android:layout_weight="50"
+			android:onClick="btnCancelarClick"/>
+
+	</LinearLayout>
+
+</LinearLayout>

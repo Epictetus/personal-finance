@@ -2,10 +2,24 @@
 <resources>
     <string name="app_name">PersonalFinance</string>
     
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+    
+    <!-- Main -->
     <string name="main_menu_contas">Contas</string>
     <string name="main_menu_transacoes">Transações</string>
     <string name="main_menu_configuracoes">Configurações</string>
     <string name="main_menu_sobre">Sobre</string>
     <string name="main_menu_sair">Sair</string>
+    
+    <!-- Configuracoes -->
+    <string name="configuracoes_title">Configurações</string>
+    <string name="configuracoes_usuario">Usuário</string>
+    <string name="configuracoes_digite_usuario">Digite seu usuário</string>
+    <string name="configuracoes_senha">Senha</string>
+    <string name="configuracoes_digite_senha">Digite sua senha</string>
+    <string name="configuracoes_validar_usuario_web">Validar usuário na web</string>
+    <string name="configuracoes_usuario_invalido">Usuário inválido!</string>
+    <string name="configuracoes_senha_invalida">Senha inválida!</string>
     
 </resources>

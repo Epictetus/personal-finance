@@ -1,12 +1,24 @@
 package br.com.personalfinance.mobile.model.entity;
 
-public class Conta {
+public class Categoria {
 
 	private Integer id;
 	private String nome;
 	private String descricao;
+	private TipoCategoria tipo;
 
 	private Usuario usuario;
+
+	public Categoria() {
+	}
+
+	public Categoria(String nome, String descricao, TipoCategoria tipo,
+			Usuario usuario) {
+		this.nome = nome;
+		this.descricao = descricao;
+		this.usuario = usuario;
+		this.tipo = tipo;
+	}
 
 	public Integer getId() {
 		return id;
@@ -38,6 +50,14 @@ public class Conta {
 
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
+	}
+
+	public TipoCategoria getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(TipoCategoria tipo) {
+		this.tipo = tipo;
 	}
 
 }

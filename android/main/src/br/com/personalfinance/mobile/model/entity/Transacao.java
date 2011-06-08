@@ -10,18 +10,23 @@ public abstract class Transacao {
 	private BigDecimal valor;
 	private Date data;
 
-	public Transacao() {}
-	
-	public Transacao(String descricao, BigDecimal valor) {
-		this(descricao, valor, new Date());
+	private Usuario usuario;
+
+	public Transacao() {
 	}
-	
-	public Transacao(String descricao, BigDecimal valor, Date data) {
+
+	public Transacao(String descricao, BigDecimal valor, Usuario usuario) {
+		this(descricao, valor, usuario, new Date());
+	}
+
+	public Transacao(String descricao, BigDecimal valor, Usuario usuario,
+			Date data) {
 		this.descricao = descricao;
 		this.valor = valor;
 		this.data = data;
+		this.usuario = usuario;
 	}
-	
+
 	public Integer getId() {
 		return id;
 	}
@@ -52,6 +57,14 @@ public abstract class Transacao {
 
 	public void setData(Date data) {
 		this.data = data;
+	}
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
 	}
 
 }

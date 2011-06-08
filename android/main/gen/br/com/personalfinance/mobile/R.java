@@ -10,32 +10,57 @@ package br.com.personalfinance.mobile;
 public final class R {
     public static final class attr {
     }
+    public static final class configuracoes {
+        public static final int cancelar=0x7f070004;
+        public static final int salvar=0x7f070003;
+        public static final int senha=0x7f070001;
+        public static final int usuario=0x7f070000;
+        public static final int validar_web=0x7f070002;
+    }
     public static final class drawable {
-        public static final int icon=0x7f020000;
+        public static final int app_icon=0x7f020000;
+        public static final int icon=0x7f020001;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
+        public static final int configuracoes=0x7f030000;
+        public static final int main=0x7f030001;
     }
     public static final class main_menu {
-        public static final int configuracoes=0x7f070002;
-        public static final int contas=0x7f070000;
-        public static final int sair=0x7f070004;
-        public static final int sobre=0x7f070003;
-        public static final int transacoes=0x7f070001;
+        public static final int configuracoes=0x7f080002;
+        public static final int contas=0x7f080000;
+        public static final int sair=0x7f080004;
+        public static final int sobre=0x7f080003;
+        public static final int transacoes=0x7f080001;
     }
     public static final class menu {
         public static final int main=0x7f060000;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
-        public static final int main_menu_configuracoes=0x7f040003;
-        public static final int main_menu_contas=0x7f040001;
-        public static final int main_menu_sair=0x7f040005;
-        public static final int main_menu_sobre=0x7f040004;
-        public static final int main_menu_transacoes=0x7f040002;
+        public static final int cancelar=0x7f040002;
+        public static final int configuracoes_digite_senha=0x7f04000c;
+        public static final int configuracoes_digite_usuario=0x7f04000a;
+        public static final int configuracoes_senha=0x7f04000b;
+        public static final int configuracoes_senha_invalida=0x7f04000f;
+        /**  Configuracoes 
+         */
+        public static final int configuracoes_title=0x7f040008;
+        public static final int configuracoes_usuario=0x7f040009;
+        public static final int configuracoes_usuario_invalido=0x7f04000e;
+        public static final int configuracoes_validar_usuario_web=0x7f04000d;
+        public static final int main_menu_configuracoes=0x7f040005;
+        /**  Main 
+         */
+        public static final int main_menu_contas=0x7f040003;
+        public static final int main_menu_sair=0x7f040007;
+        public static final int main_menu_sobre=0x7f040006;
+        public static final int main_menu_transacoes=0x7f040004;
+        public static final int salvar=0x7f040001;
     }
     public static final class style {
         public static final int activity=0x7f050000;
+        public static final int button=0x7f050004;
+        public static final int edit_text=0x7f050003;
         public static final int text=0x7f050002;
         public static final int text_special=0x7f050001;
     }

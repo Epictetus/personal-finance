@@ -8,10 +8,25 @@
     
     <style name="text_special">
     	<item name="android:textColor">#008B00</item>
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
     </style>
     
     <style name="text">
     	<item name="android:textColor">#333333</item>
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="edit_text">
+    	<item name="android:textColor">#333333</item>
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="button">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
     </style>
     
 </resources>

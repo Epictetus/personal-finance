@@ -23,4 +23,9 @@ public class UsuarioDao extends Dao<Usuario, Integer> implements UsuarioReposito
 		return null;
 	}
 
+	@Override
+	public boolean hasUsuario() {
+		return false;
+	}
+
 }

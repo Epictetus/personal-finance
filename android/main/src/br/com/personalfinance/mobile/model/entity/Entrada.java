@@ -9,12 +9,12 @@ public class Entrada extends Transacao {
 
 	public Entrada() {}
 	
-	public Entrada(String descricao, BigDecimal valor, Conta destino) {
-		this(descricao, valor, destino, new Date());
+	public Entrada(String descricao, BigDecimal valor, Conta destino, Usuario usuario) {
+		this(descricao, valor, destino, usuario, new Date());
 	}
 	
-	public Entrada(String descricao, BigDecimal valor, Conta destino, Date data) {
-		super(descricao, valor, data);
+	public Entrada(String descricao, BigDecimal valor, Conta destino, Usuario usuario, Date data) {
+		super(descricao, valor, usuario, data);
 		this.destino = destino;
 	}
 	

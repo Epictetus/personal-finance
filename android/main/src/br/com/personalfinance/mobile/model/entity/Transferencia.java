@@ -11,12 +11,12 @@ public class Transferencia extends Transacao {
 	public Transferencia() {
 	}
 
-	public Transferencia(String descricao, BigDecimal valor, Conta origem, Conta destino) {
-		this(descricao, valor, origem, destino, new Date());
+	public Transferencia(String descricao, BigDecimal valor, Conta origem, Conta destino, Usuario usuario) {
+		this(descricao, valor, origem, destino, usuario, new Date());
 	}
 
-	public Transferencia(String descricao, BigDecimal valor, Conta origem, Conta destino, Date data) {
-		super(descricao, valor, data);
+	public Transferencia(String descricao, BigDecimal valor, Conta origem, Conta destino, Usuario usuario, Date data) {
+		super(descricao, valor, usuario, data);
 		this.origem = origem;
 		this.destino = destino;
 	}
