@@ -1,5 +1,12 @@
 PersonalFinanceWeb::Application.routes.draw do
+  get "login/index"
+
+  resources :categories
+
   resources :users
+
+  match "login", :to => "login#index"
+  match "/", :to => "login#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

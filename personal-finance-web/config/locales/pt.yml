@@ -1,0 +1,9 @@
+pt:
+  project_name: "Personal Finance"
+
+  users: "Usuários"
+  user_name: "Nome"
+  user_login: "Login"
+  user_password: "Senha"
+  user_email: "Email"
+  user_active: "Ativo"

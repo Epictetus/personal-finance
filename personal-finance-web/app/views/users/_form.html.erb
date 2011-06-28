@@ -12,23 +12,23 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :login %><br />
-    <%= f.text_field :login %>
+    <%= f.label t :user_login %><br />
+    <%= f.text_field :login, :maxlength => 12 %>
   </div>
   <div class="field">
-    <%= f.label :nome %><br />
-    <%= f.text_field :name %>
+    <%= f.label t :user_name %><br />
+    <%= f.text_field :name, :maxlength => 30 %>
   </div>
   <div class="field">
-    <%= f.label :senha %><br />
-    <%= f.text_field :password %>
+    <%= f.label t :user_password %><br />
+    <%= f.password_field :password, :maxlength => 15 %>
   </div>
   <div class="field">
-    <%= f.label :email %><br />
+    <%= f.label t :user_email %><br />
     <%= f.text_field :email %>
   </div>
   <div class="field">
-    <%= f.label :ativo %><br />
+    <%= f.label t :user_active %><br />
     <%= f.check_box :active %>
   </div>
 
