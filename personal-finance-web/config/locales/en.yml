@@ -4,7 +4,14 @@
 en:
   project_name: "Personal Finance"  
 
+  save: "Save"
+  edit: "Edit"
+  back: "Back"
+  show: "Show"
+  delete: "Delete"
+
   users: "Users"
+  users_new: "New user"
   user_name: "Name"
   user_login: "Login"
   user_password: "Password"

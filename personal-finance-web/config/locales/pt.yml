@@ -1,7 +1,14 @@
 pt:
   project_name: "Personal Finance"
 
+  save: "Salvar"
+  edit: "Editar"
+  back: "Voltar"
+  show: "Exibir"
+  delete: "Deletar"
+
   users: "Usuários"
+  users_new: "Novo usuário"
   user_name: "Nome"
   user_login: "Login"
   user_password: "Senha"

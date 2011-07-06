@@ -1,29 +1,29 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Login:</b>
+<b><%= t :user_login%></b>
   <%= @user.login %>
 </p>
 
 <p>
-  <b>Nome:</b>
+<b><%= t :user_name %></b>
   <%= @user.name %>
 </p>
 
 <p>
-  <b>Senha:</b>
+<b><%= t :user_password %></b>
   <%= @user.password %>
 </p>
 
 <p>
-  <b>Email:</b>
+<b><%= t :user_email %></b>
   <%= @user.email %>
 </p>
 
 <p>
-  <b>Ativo:</b>
+<b><%= t :user_active %></b>
   <%= @user.active %>
 </p>
 
-<%= link_to 'Editar', edit_user_path(@user) %> |
-<%= link_to 'Voltar', users_path %>
+<%= link_to t :edit, edit_user_path(@user) %> |
+<%= link_to t :back, users_path %>

@@ -1,1 +1,14 @@
-<h1>Login#index</h1>
+<%form_tag :action => :do_login do %>
+
+  <table id="login">
+    <tr>
+      <td><%= t(:user_login) %></td>
+      <td><input type="text" name="user_login"/></td>
+    </tr>
+    <tr>
+      <td><%= t(:user_password) %></td>
+      <td><input type="password" name="user_password"/></td>
+    </tr>
+  </table>
+
+<% end %>

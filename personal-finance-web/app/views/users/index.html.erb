@@ -2,11 +2,11 @@
 
 <table>
   <tr>
-    <th>Login</th>
-    <th>Nome</th>
-    <th>Senha</th>
-    <th>Email</th>
-    <th>Ativo</th>
+    <th><%= t :user_login %></th>
+    <th><%= t :user_name %></th>
+    <th><%= t :user_password %></th>
+    <th><%= t :user_email %></th>
+    <th><%= t :user_active %></th>
     <th></th>
     <th></th>
     <th></th>
@@ -19,13 +19,13 @@
     <td><%= user.password %></td>
     <td><%= user.email %></td>
     <td><%= user.active %></td>
-    <td><%= link_to 'Exibir', user %></td>
-    <td><%= link_to 'Editar', edit_user_path(user) %></td>
-    <td><%= link_to 'Deletar', user, :confirm => 'Deseja mesmo deletar?', :method => :delete %></td>
+    <td><%= link_to t(:show), user %></td>
+    <td><%= link_to t(:edit), edit_user_path(user) %></td>
+    <td><%= link_to t(:delete), user, :confirm => 'Deseja mesmo deletar?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'Novo usuário', new_user_path %>
+<%= link_to t(:users_new), new_user_path %>

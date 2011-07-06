@@ -1,5 +1,6 @@
 PersonalFinanceWeb::Application.routes.draw do
   get "login/index"
+  post "login/do_login"
 
   resources :categories
 
